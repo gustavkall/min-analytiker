@@ -54,6 +54,8 @@ docs:  documentation
 
 At the end of every session, **without being asked**, perform the following:
 
+**CRITICAL: Spara ALLTID state-filer i det repo där CC är startad (`pwd`). Kontrollera alltid att du är i rätt mapp innan handoff. Skriv ALDRIG state från ett projekt i ett annat projekts repo.**
+
 1. **Update `state/session_handoff.md`** — What was done, decisions & reasoning, next steps.
 2. **Update `state/current_state.md`** — Date, version, system status.
 3. **Update `state/work_queue.md`** — Mark completed, reprioritize.
