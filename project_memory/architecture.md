@@ -1,4 +1,4 @@
-# {{PROJECT_NAME}} — Architecture
+# min-analytiker — Architecture
 
 ## Overview
 *Describe the system architecture here as it evolves.*
