@@ -40,8 +40,12 @@ Fetch these files from GitHub for context not in API:
 4. https://raw.githubusercontent.com/gustavkall/min-analytiker/main/project_memory/decisions.md
 5. https://raw.githubusercontent.com/gustavkall/min-analytiker/main/project_memory/context_import.md
 
-### Step 3: Determine next action
-From API state + work queue: current system state, active/blocked work, and the exact next task.
+### Step 3: Las master-state fran styr-ai
+- https://raw.githubusercontent.com/gustavkall/styr-ai/main/project_memory/global_status.md
+- https://raw.githubusercontent.com/gustavkall/styr-ai/main/project_memory/cross_project_learnings.md
+
+### Step 4: Determine next action
+From API state + work queue + global status: current system state, active/blocked work, and the exact next task.
 
 ## Commit Conventions
 
