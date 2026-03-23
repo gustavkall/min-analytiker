@@ -4,9 +4,11 @@ This file provides guidance to Claude Code when working with this repository.
 
 ## What is min-analytiker
 
-min-analytiker — built with claude-memory-scaffold
+Claudes roll som intradagsanalytiker och systemutvecklare for Gustavs trading-system TradeSys. Regelbaserat system for daytrading/swing trading i amerikanska aktier. Makroregim-klassificering, multi-timeframe teknisk analys, intermarket-hierarki.
 
-Live: https://min-analytiker.vercel.app
+**Viktigt:** Las alltid `project_memory/context_import.md` vid session boot — innehaller all historisk kontext.
+
+Kopplat till dashboard-repot: `gustavkall/tradesys1337`
 
 ## Development Commands
 
@@ -36,6 +38,7 @@ Fetch these files from GitHub for context not in API:
 2. https://raw.githubusercontent.com/gustavkall/min-analytiker/main/state/work_queue.md
 3. https://raw.githubusercontent.com/gustavkall/min-analytiker/main/project_memory/architecture.md
 4. https://raw.githubusercontent.com/gustavkall/min-analytiker/main/project_memory/decisions.md
+5. https://raw.githubusercontent.com/gustavkall/min-analytiker/main/project_memory/context_import.md
 
 ### Step 3: Determine next action
 From API state + work queue: current system state, active/blocked work, and the exact next task.
